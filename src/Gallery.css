@@ -1,1 +1,131 @@
 
+.gallery {
+    padding: 20px;
+  }
+  
+  .gallery-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    animation: fadeInText 1s ease-in;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery-item {
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+  }
+  
+  .modal-content-container {
+    position: relative;
+  }
+  
+  .modal-content {
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 10px;
+    animation: zoomIn 0.5s ease;
+  }
+  
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .close:hover {
+    color: #ff0000;
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.3s ease;
+  }
+  
+  .prev {
+    left: 20px;
+  }
+  
+  .next {
+    right: 20px;
+  }
+  
+  .prev:hover, .next:hover {
+    color: #ff0000;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes zoomIn {
+    from {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInText {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
