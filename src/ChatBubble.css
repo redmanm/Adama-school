@@ -1,0 +1,48 @@
+.chat-bubble {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.chat-content {
+  background-color: #fff;
+  border: 2px solid #004d9b;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chat-content p {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.chat-content button {
+  background-color: #004d9b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.chat-content button:hover {
+  background-color: #f39c12;
+}
+
+.chat-open {
+  background-color: #004d9b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50%;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.chat-open:hover {
+  background-color: #f39c12;
+}

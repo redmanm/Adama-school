@@ -1,0 +1,198 @@
+/* Base Styles */
+.navbar {
+  background-color: #004d9b;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.navbar-scrolled {
+  background-color: #002b57;
+}
+
+.menu-icon {
+  display: none; /* Hidden by default */
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Navbar links styles */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  position: relative;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  background-color: #f39c12;
+  color: #004d9b;
+  border-radius: 4px;
+}
+
+.dropdown-menu, .elearning-dropdown-menu, .schools-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #0ebfd6;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.navbar-links li:hover .dropdown-menu,
+.navbar-links li:hover .elearning-dropdown-menu,
+.navbar-links li:hover .schools-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdown-menu li, .elearning-dropdown-menu li, .schools-dropdown-menu li {
+  width: 200px;
+}
+
+.dropdown-menu a, .elearning-dropdown-menu a, .schools-dropdown-menu a {
+  display: block;
+  padding: 8px 16px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-menu a:hover, .elearning-dropdown-menu a:hover, .schools-dropdown-menu a:hover {
+  background-color: #f39c12;
+}
+
+/* Language Switcher Styles */
+.language-menu {
+  position: relative;
+  cursor: pointer;
+}
+
+.language-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #0ebfd6;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.language-menu:hover .language-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.language-dropdown-menu li {
+  width: 150px;
+}
+
+.language-dropdown-menu button {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-align: left;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.language-dropdown-menu button:hover {
+  background-color: #f39c12;
+  border-radius: 4px;
+  transform: translateX(5px);
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .navbar-links {
+    display: flex; /* Display flex for horizontal layout */
+    flex-direction: row; /* Arrange items horizontally */
+    width: 100%;
+    background-color: #004d9b;
+    position: absolute;
+    top: 60px; /* Adjust based on your navbar height */
+    left: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+  }
+
+  .navbar-links.show {
+    max-height: 300px; /* Adjust based on the number of items */
+    opacity: 1;
+  }
+
+  .navbar-links li {
+    width: auto;
+  }
+
+  .navbar-links a {
+    padding: 15px 20px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .dropdown-menu, .elearning-dropdown-menu, .schools-dropdown-menu {
+    position: static;
+    box-shadow: none;
+    background-color: #004d9b;
+  }
+
+  .dropdown-menu a, .elearning-dropdown-menu a, .schools-dropdown-menu a {
+    padding: 15px 20px;
+  }
+
+  .language-dropdown-menu {
+    position: static;
+    background-color: #004d9b;
+  }
+
+  .language-dropdown-menu button {
+    padding: 15px 20px;
+  }
+}

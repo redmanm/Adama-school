@@ -1,0 +1,261 @@
+.school-page {
+  padding: 20px;
+  background: linear-gradient(to bottom right, #f0f8ff, #e0f7fa);
+  text-align: center;
+}
+
+.school-title {
+  font-size: 48px;
+  color: #004d9b;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #8fc9ff;
+}
+
+.school-details-card {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 80%;
+  text-align: left;
+}
+
+.card h2 {
+  font-size: 28px;
+  color: #004d9b;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.school-description-map {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.school-description {
+  flex: 2;
+  text-align: left;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.school-description h2 {
+  font-size: 28px;
+  color: #004d9b;
+  margin-bottom: 10px;
+}
+
+.school-description p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.school-map-card {
+  flex: 1.5;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.map-container {
+  margin-bottom: 20px;
+}
+
+.gallery-container {
+  position: relative;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.gallery-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+}
+
+.prev-btn,
+.next-btn {
+  background-color: #004d9b;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background-color: #003366;
+}
+
+.fullscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.fullscreen-image {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.prev-btn.full,
+.next-btn.full {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1001;
+}
+
+.prev-btn.full {
+  left: 10px;
+}
+
+.next-btn.full {
+  right: 10px;
+}
+
+
+/* Feedback form styling */
+.feedback-section {
+  width: 500px;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.feedback-section h2 {
+  font-size: 28px;
+  color: #004d9b;
+  margin-bottom: 20px;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #004d9b;
+  border-radius: 5px;
+}
+
+.feedback-form button {
+  padding: 10px 20px;
+  background-color: #004d9b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.feedback-form button:hover {
+  background-color: #003366;
+}
+
+/* Success message styling */
+.success-message {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  font-weight: bold;
+  z-index: 1000;
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+.animate-success {
+  animation: zoomIn 1s ease-in-out;
+}
+
+/* Animations */
+.animate-title {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.animate-description {
+  animation: slideInLeft 1.5s ease-in-out;
+}
+
+.animate-feedback-title {
+  animation: zoomIn 1s ease-in-out;
+}
+
+.animate-gallery-image {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes slideInLeft {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes zoomIn {
+  0% { transform: scale(0); }
+  100% { transform: scale(1); }
+}

@@ -1,0 +1,114 @@
+.news-page {
+    padding: 40px;
+    background: #f4f7fa;
+}
+
+.news-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.news-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.news-card {
+    /* width: calc(33% - 20px); */
+    width: calc(20% - 20px);
+    height: calc(40% - 20px);
+    background: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.news-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 3px solid #007bff;
+}
+
+.news-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.news-category {
+    color: #007bff;
+    font-size: 0.85em;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.news-date {
+    font-size: 0.8em;
+    color: #999;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.news-title {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.news-title:hover {
+    color: #007bff;
+}
+
+.news-excerpt {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.like-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.like-button:hover {
+    background-color: #0056b3;
+}
+
+.like-button.liked {
+    background-color: yellow;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .news-card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .news-card {
+        width: 100%;
+    }
+}

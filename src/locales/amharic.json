@@ -1,0 +1,96 @@
+{
+    "welcome": "እንኳን ወደ አዳማ ትምህርት መረጃ ገጽ በሰላም መጡ",
+    
+    "learn more":"የበለጠ ይመልከቱ",
+    "description":"በአዳማ ውስጥ ስለ ትምህርት ቤቶች፣ የመማር እና የትምህርት እድሎች ሁሉንም ነገር ያስሱ።",
+    "description2":"ተማሪ፣ ወላጅ ወይም አስተማሪ፣ በትምህርት ጉዞዎ ላይ እርስዎን ለመምራት ጠቃሚ ግብዓቶችን እና መረጃዎችን ያገኛሉ።",
+    "Latest News":"የቅርብ ጊዜ ዜናዎች",
+
+
+  
+    "Adama School Portal": "የአዳማ ትምህርት ቤት ፖርታል",
+    "Academy":"አካዳሚ",
+    "Public School":"የህዝብ ትምህርት ቤት",
+    "Private School":"የግል ትምህርት ቤት",
+    "E-Learning":"ኢ-ትምህርት",
+    "Primary E-Learning":"ዋና ኢ-ትምህርት",
+    "Secondary E-Learning":"ሁለተኛ ኢ-ትምህርት",
+    "About":"ስለ እኛ",
+    "Contact":"እውቂያ",
+    "Language":"ቋንቋ",
+    "Home":"ቤት",
+    "Schools":"ትምህርት ቤቶች",
+
+    "location": "አካባቢ",
+    "student number": "ተማሪዎች",
+    "builtyear": "የተገነባ አመት",
+    "rate": "ደረጃ ይስጡ",
+    "Search by name": "በስም ፈልግ",
+    "Search by location": "በቦታ ይፈልጉ",
+    "Search by payment": "በክፍያ ይፈልጉ",
+
+
+
+
+
+
+    "public School": "የመንግስት ትምህርት ቤቶች",
+
+    "program": "ፕሮግራሞቻችንን ያግኙ",
+    "program information":"የተማሪ መረጃን በቀላሉ ማግኘት በወላጆች፣ በአስተማሪዎች እና በአስተዳዳሪዎች መካከል የተሳለጠ ግንኙነትን ቀልጣፋ የክፍያ አስተዳደር እና ክትትል ክትትል በዲጂታል ግብዓቶች የተሻሻለ የትምህርት ልምድ",
+
+      "Ifa Boru Sekakalo Secondary School": "ኢፋ ቦሩ ሰቃቃሎ ሁለተኛ ደረጃ ትምህርት ቤት",
+      "Adama Model Senior Secondary School": "የአዳማ ሞዴል ከፍተኛ ሁለተኛ ደረጃ ትምህርት ቤት",
+      "Ifa Boru Dabe Secondary School": "ኢፋ ቦሩ ዳቤ 2ኛ ደረጃ ት/ቤት",
+      "Wonji Shoa Senior Secondary School": "የወንጂ ሸዋ ከፍተኛ ሁለተኛ ደረጃ ትምህርት ቤት",
+      "Bole Preparatory School": "ቦሌ መሰናዶ ትምህርት ቤት",
+      "Hawas Secondary School": "የሀዋስ ሁለተኛ ደረጃ ትምህርት ቤት",
+      "Hawas Melkesa Secondary School": "የሀዋስ መልኬሳ 2ኛ ደረጃ ት/ቤት",
+      "Adama Secondary School": "አዳማ ሁለተኛ ደረጃ ትምህርት ቤት",
+      "Adama Boset Secondary School": "አዳማ ቦሴት 2ኛ ደረጃ ት/ቤት",
+      "Goro Secondary School": "የጎሮ ሁለተኛ ደረጃ ትምህርት ቤት",
+      "Ifa Boru Sire Ababune Secondary School": "ኢፋ ቦሩ ሲሬ አባቡነ 2ኛ ደረጃ ት/ቤት",
+      "Wonji Secondary School": "ወንጂ ሁለተኛ ደረጃ ትምህርት ቤት",
+      "Dembela Secondary School": "የደምቤላ ሁለተኛ ደረጃ ትምህርት ቤት",
+      "Wonji Didimtu Secondary School": "ወንጂ ዲዲምቱ 2ኛ ደረጃ ት/ቤት",
+      "Burka Secondary School": "የቡርካ ሁለተኛ ደረጃ ትምህርት ቤት",
+      "Adama Abdi Boru Elementary School": "አዳማ አብዲ ቦሩ አንደኛ ደረጃ ትምህርት ቤት",
+      "Gada Kilole": "ጋዳ ኪሎሌ",
+
+
+      
+      "Makkobili School": "የማኮቢሊ ትምህርት ቤት",
+      "Wonderland Academy": "Wonderland አካዳሚ",
+      "Hagotel School": "Hagotel ትምህርት ቤት",
+      "Hollyseviour School": "Hollyseviour ትምህርት ቤት",
+      "Chilalo School": "የጭላሎ ትምህርት ቤት",
+      "Dana Atsede Hitsanat School": "ዳና አፀደ ሕፃናት ትምህርት ቤት",
+      "Arsema Youth Academy": "የአርሴማ ወጣቶች አካዳሚ",
+      "Dabe Artu KG And Primary School": "ዳቤ አርቱ ኬጂ እና አንደኛ ደረጃ ትምህርት ቤት",
+      "NAFYAD School (Main Campus)": "ናፍያድ ትምህርት ቤት (ዋና ካምፓስ)",
+      "Koket Milki Academy": "KOKET MILKI ACADAMY",
+      "Abdi Boru Primary and Secondary School": "አብዲ ቦሩ አንደኛና ሁለተኛ ደረጃ ትምህርት ቤት",
+      "Akbar School": "አክባር ትምህርት ቤት",
+      "Wise Adama Yuuz Academy": "ጠቢቡ አዳማ ዩኡዝ አካዳሚ",
+      "Kamara School": "የካማራ ትምህርት ቤት",
+      "Hill Top Academy": "ሂል ከፍተኛ አካዳሚ",
+      "Barnabas School": "የበርናባስ ትምህርት ቤት",
+      "Elshaday Academy": "ኤልሻዳይ አካዳሚ",
+      "Abuna Gorgoriyos School": "አቡነ ጎርጎርዮስ ሰቆቃ",
+      "Yomeda Kindergarten and Primary School": "ዮሜዳ ኪንደርጋርደን እና አንደኛ ደረጃ ትምህርት ቤት",
+      "Gadidu Academy": "ጋዲዱ አካዳሚ",
+      "Nowzer School": "Nowzer ትምህርት ቤት",
+      "Tewab Adama Education": "ተዋብ አዳማ ትምህርት",
+      "Kegna Academy": "ኬኛ አካዳሚ",
+      "Bright Kids Academy": "ብሩህ የልጆች አካዳሚ",
+      "Kebar PLC": "ኬባር ኃ.የተ.የግ.ማ",
+      "Kuhulefaureshidin School": "ኩሁለፋኡረሺዲን ትምህርት ቤት",
+      "Next Generation School PLC": "ቀጣይ ትውልድ ትምህርት ቤት ኃ.የተ.የግ.ማ",
+      "Wisdom Educational Academy": "ጥበብ የትምህርት አካዳሚ",
+      "Heilig School": "ሄሊግ ትምህርት ቤት",
+      "Neros International School PLC": "Neros International School plc"
+    
+    
+    }
+    
+  

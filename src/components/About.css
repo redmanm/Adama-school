@@ -1,0 +1,111 @@
+.about-us {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #e0f7fa, #80deea);
+  color: #333;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about-us-content {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  max-width: 900px;
+  margin: auto;
+}
+
+.section-title {
+  font-size: 48px;
+  color: #00796b;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.intro-text, .history-text {
+  font-size: 20px;
+  color: hsl(242, 98%, 49%);
+  margin-bottom: 40px;
+  line-height: 1.8;
+}
+
+.mission-vision-values {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.mission h3, .vision h3, .core-values h3, .history-adama h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #00796b;
+}
+
+.mission p, .vision p, .core-values p, .history-adama p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.icon {
+  font-size: 50px;
+  color: #00796b;
+  margin-bottom: 15px;
+}
+
+.photo-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.photo-item {
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  display: block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo-item:hover img {
+  transform: scale(1.1);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.history-adama {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin-top: 60px;
+  text-align: left;
+}
