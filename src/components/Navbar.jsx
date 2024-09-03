@@ -81,9 +81,26 @@ const Navbar = () => {
         <FaBars />
         {menuDropdown && (
           <ul className="menu-dropdown-menu">
-            <li><Link to="/language">{i18n.t('Language')}</Link></li>
-            <li><Link to="/AdminDashboardPage">{i18n.t('Administration')}</Link></li>
-            <li><Link to="/profile">{i18n.t('Profile')}</Link></li>
+
+            <li><Link to="/">{i18n.t('Home')}</Link></li>
+            <li><Link to="/about">{i18n.t('About')}</Link></li>
+            <li><Link to="/SignInPage">Admin</Link></li>
+            <li><Link to="/contact">{i18n.t('Contact')}</Link></li>
+            <li><Link to="/PrimarySchool">{i18n.t('Public School')}</Link></li>
+            <li><Link to="/PrivateSchool">{i18n.t('Private School')}</Link></li>
+            <li><Link to="/LibraryPage">{i18n.t('Primary E-Learning')}</Link></li>
+            <li><Link to="/ELearning">{i18n.t('Secondary E-Learning')}</Link></li>
+
+            <li className="language-menu" onClick={toggleLanguageDropdown}>
+          <span>{i18n.t('Language')}</span>
+          {languageDropdown && (
+            <ul className="language-dropdown-menu">
+              <li><button onClick={() => changeLanguage('am')}>አማርኛ</button></li>
+              <li><button onClick={() => changeLanguage('or')}>Afan Oromo</button></li>
+              <li><button onClick={() => changeLanguage('en')}>English</button></li>
+            </ul>
+          )}
+        </li>
           </ul>
         )}
       </div>
