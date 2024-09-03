@@ -19,7 +19,7 @@ import ELearningAdmin from './components/admin/ELearningAdmin';
 import NewsDetailPage from './components/news/NewsDetailPage'; // Import NewsDetailPage
 import SignInPage from './components/admin/SignInPage'
 import Datas from './Datas';
-import Gallery from './components/home/Gallery';
+import Gallery from './components/Gallery';
 
 
 // Lazy loading components
