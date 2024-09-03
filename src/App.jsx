@@ -19,6 +19,7 @@ import ELearningAdmin from './components/admin/ELearningAdmin';
 import NewsDetailPage from './components/news/NewsDetailPage'; // Import NewsDetailPage
 import SignInPage from './components/admin/SignInPage'
 import Datas from './Datas';
+import Gallery from './components/home/Gallery';
 
 
 // Lazy loading components
@@ -28,17 +29,51 @@ const NotFound = lazy(() => import('./components/NotFound'));
 // Initial books data
 const initialBooks = [
   {
-    title: 'Sample Book 1',
-    author: 'Author 1',
-    year: 2022,
-    example: 'Fiction',
-    cover: 'https://via.placeholder.com/150',
-    description: 'Description of Sample Book 1',
-    pdf: null,
-    image: null,
-    video: null,
+    title: 'smart study book',
+    author: 'adama city community',
+    year: 2024,
+    example: 'hard study',
+    cover: '.././photos/chemistry11.jpg',
+    description: 'Active Recall: Instead of passively reading, actively test yourself on key concepts. This strengthens memory retention',
+    pdf: ".././resources/sample-1.pdf",
+    image: ".././photos/chemistry11.jpg",
+    video: ".././video/Adama_City.mp4",
   },
   // Add more sample books if needed
+  {
+    title: 'guide line',
+    author: 'adama city community',
+    year: 2024,
+    example: 'hard study',
+    cover: '.././photos/student1.jpg',
+    description: 'Pomodoro Technique: Study in focused intervals (25 minutes) with short breaks (5 minutes) to boost concentration and avoid burnout.',
+    pdf: ".././resources/sample-3.pdf",
+    image: ".././photos/chemistry11.jpg",
+    video: ".././video/background.mp4",
+  },
+  {
+    title: 'Technical Study  Tips and Tricks',
+    author: 'adama city community',
+    year: 2024,
+    example: 'hard study',
+    cover: '.././photos/student2.jpg',
+    description: 'Feynman Technique: Try explaining complex topics in simple terms to ensure true understanding.',
+    pdf: ".././resources/sample-2.pdf",
+    image: ".././photos/chemistry11.jpg",
+    video: ".././video/background2.mp4",
+  },
+  {
+    title: 'Tips and Tricks of Study',
+    author: 'adama city community',
+    year: 2024,
+    example: 'hard study',
+    cover: '.././photos/school1.jpg',
+    description: 'Mind Mapping: Use visual diagrams to connect and organize information, making it easier to remember.',
+    pdf: ".././resources/sample-3.pdf",
+    image: ".././photos/chemistry11.jpg",
+    video: ".././video/background3.mp4",
+  },
+
 ];
 
 // Initial news data
@@ -75,6 +110,7 @@ function App() {
               <Route path="/PrimarySchool" element={<PrimarySchool />} />
               <Route path="/PrivateSchool" element={<PrivateSchool />} />
               <Route path="/libraryPage" element={<LibraryPage />} />
+              <Route path="/Gallery" element={<Gallery />} />
               
               <Route path="/AdminDashboard" element={<AdminDashboard />} />
               <Route path="/SignInPage" element={<SignInPage />} />
